@@ -2,9 +2,9 @@ import ftplib
 
 def connect_ftp(ip):
     try:
-        # Cria instancia da classe FTP
+        # cria instancia FTP
         ftp = ftplib.FTP(ip)
-        # Tenta logar anonimamente
+        # tentar fazer login anonimamente
         ftp.login()  
         print(f"[SUCCESS] Conectado ao {ip}")
         return ftp
