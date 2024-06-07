@@ -1,4 +1,4 @@
 # ftp
 
-ftp login exploit sem credenciais
+ftp login
 explicaçoes no codigo ^^
